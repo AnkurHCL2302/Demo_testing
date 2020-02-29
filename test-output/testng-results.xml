@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="90" started-at="2020-02-01T07:17:05Z" finished-at="2020-02-01T07:17:05Z">
+    <groups>
+      <group name="functional">
+        <method signature="classC.method1()[pri:0, instance:testngdemo.classC@17ed40e0]" name="method1" class="testngdemo.classC"/>
+      </group> <!-- functional -->
+      <group name="Regression">
+        <method signature="classC.method1()[pri:0, instance:testngdemo.classC@17ed40e0]" name="method1" class="testngdemo.classC"/>
+        <method signature="classC.method2()[pri:0, instance:testngdemo.classC@17ed40e0]" name="method2" class="testngdemo.classC"/>
+      </group> <!-- Regression -->
+    </groups>
+    <test name="Test" duration-ms="90" started-at="2020-02-01T07:17:05Z" finished-at="2020-02-01T07:17:05Z">
+      <class name="testngdemo.classC">
+        <test-method status="PASS" signature="method1()[pri:0, instance:testngdemo.classC@17ed40e0]" name="method1" duration-ms="30" started-at="2020-02-01T12:47:05Z" finished-at="2020-02-01T12:47:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method1 -->
+        <test-method status="PASS" signature="method2()[pri:0, instance:testngdemo.classC@17ed40e0]" name="method2" duration-ms="0" started-at="2020-02-01T12:47:05Z" finished-at="2020-02-01T12:47:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method2 -->
+      </class> <!-- testngdemo.classC -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
