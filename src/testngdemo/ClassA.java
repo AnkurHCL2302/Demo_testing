@@ -67,7 +67,7 @@ public class ClassA {
 	@AfterTest
 	public void testcase2af()
 	{
-		System.out.println("this is After Test ");
+		System.out.println("this is After Test Class ");
 	}
 
 
